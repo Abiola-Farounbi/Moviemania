@@ -1,0 +1,372 @@
+body{
+  background-image: url('slider-bg.jpg');
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+
+
+.header{
+  width:100%;
+  margin:10px auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+}
+.header div{
+  color:white;
+  display:block;
+  font-size:15px;
+}
+.subHeader{
+  color:white;
+  text-shadow: 2px 2px 4px #e78911;
+  font: italic 400 10px Playfair Display, sans-serif;  
+
+  margin: -80px 0px 20px 0px;
+}
+
+.ml7 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.7em;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+
+.logo{
+  width:500px;
+ 
+}
+.background1{
+  width:100%;
+  background-color: #020d18;
+  /*! height:250vh; */
+  padding:20px;
+  border-top: 1px solid black;
+  font:  400 15px Playfair Display, sans-serif;
+
+}
+.heading1{
+/*! border-bottom:1px dotted black; */
+/*! border-top:1px dotted black; */
+color:white;
+border: 1px solid goldenrod;
+/*! background-color: #00162b; */
+box-shadow: 1px 1px 0px gold;
+/*! margin: 10px 0px !important; */
+}
+.heading1:hover{
+  background-color: goldenrod;
+  color:black;
+}
+
+
+.top-search {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  margin:20px 0px;
+  width: 100%;
+}
+
+.top-search input {
+ width:80%;
+  font-family: 'Nunito', sans-serif;
+  font-size: #abb7c4;
+  font-weight: 300;
+  text-transform: none;
+ padding-left: 10px;
+ border: 2px solid #020c18;
+
+ border-radius: 20px;
+ color: black;
+ 
+}
+
+ .top-search input::-webkit-input-placeholder {
+  color: white;
+}
+
+
+
+#searchBtn{
+  background-color: #233a50;
+    padding: -1px 20px;
+    border: 2px solid #020c18;
+
+    border-radius: 0px 20px 20px 0px;
+   
+    font-style: italic;
+    
+}
+.bgBreak{
+      background-color: #020d18;
+      opacity: 0.8;
+      color: white !important;
+}
+
+.image1{
+  width:100%;
+ height:200px !important;  
+}
+
+.image1:hover{
+     border-radius:50%;
+     filter: saturate(3);
+}
+
+.btnBreak{
+  background-color: transparent !important;
+  border:1px solid gold;
+}
+
+.bgBreak h5{
+  color:gold !important;
+}
+
+.badgeBreak{
+  color:black !important;;
+  background-color: lightblue !important;
+}
+.heights{
+  height:300px;
+}
+
+.image2{
+  width:50px;
+  height:50px;
+  margin:20px;
+}
+
+.cardBreak{
+  background-color: transparent !important;
+  color:white !important;
+}
+
+.footer{
+  position:absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 5;
+  /*! display: flex; */
+  width: 100%;
+  height: 10vh;
+  justify-content: space-evenly;
+  align-items: center;
+  color:white;
+  background-color:#06121e;
+  font:  400 10px Playfair Display, sans-serif;  
+  padding: 20px;
+
+}
+
+/* loader */
+.loading{
+  width:100%;
+  margin:250px auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+}
+.lds-grid {
+
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-grid div {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background:white;
+  animation: lds-grid 1.2s linear infinite;
+}
+.lds-grid div:nth-child(1) {
+  top: 8px;
+  left: 8px;
+  animation-delay: 0s;
+}
+.lds-grid div:nth-child(2) {
+  top: 8px;
+  left: 32px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(3) {
+  top: 8px;
+  left: 56px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(4) {
+  top: 32px;
+  left: 8px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(5) {
+  top: 32px;
+  left: 32px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(6) {
+  top: 32px;
+  left: 56px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(7) {
+  top: 56px;
+  left: 8px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(8) {
+  top: 56px;
+  left: 32px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(9) {
+  top: 56px;
+  left: 56px;
+  animation-delay: -1.6s;
+}
+@keyframes lds-grid {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+.viewMore{
+  background-color: transparent;
+ 
+  padding :5px;
+  float:right;
+}
+.bodyContainer{
+  font:  400 15px Playfair Display, sans-serif;
+}
+.footerBox{
+  background-color: transparent;
+  border:1px solid goldenrod;
+  padding :5px;
+}
+.footerBox2{
+  float:right;
+}
+
+
+
+
+
+
+@media only screen and (min-width:400px) and (max-width:800px){
+  .subHeader{
+    color:white;
+      
+    font: italic 400 7px Playfair Display, sans-serif;  
+
+    margin: -80px 0px 20px 0px;
+}
+
+.background1{
+  width:100%;
+  background-color: #233a50;
+  height:300vh;
+  padding:20px;
+  border-top: 1px solid black;
+  font:  400 15px Playfair Display, sans-serif;
+}
+.top-search {
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+margin:20px 0px;
+width: 85%;
+}
+}
+
+
+
+
+@media only screen and (min-width:100px) and (max-width:399px){
+
+  body{
+      background-image: url('slider-bg.jpg');
+      margin: 0px;
+      padding: 0px;
+  }
+ 
+  .background1{
+    width:100%;
+    background-color: #020d18;
+    /*! height:500vh; */
+    padding:20px;
+    border-top: 1px solid black;
+    font:  400 15px Playfair Display, sans-serif;
+}
+  
+
+  
+.subHeader{
+  color:white;
+    
+  font: italic 400 5px Playfair Display, sans-serif;  
+
+  margin: -60px 0px 20px 0px;
+ 
+}
+ 
+.background1{
+width:100%;
+background-color: #020d18;
+/*! height:700vh; */
+padding:20px;
+border-top: 1px solid black;
+font:  400 15px Playfair Display, sans-serif;
+}
+.top-search {
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+margin:20px 0px;
+width:85%;
+}
+ 
+} 
+
