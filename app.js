@@ -24,7 +24,7 @@ const getSearch = async () => {
 
    var searchValue=document.querySelector('.search').value;
    document.querySelector('.loading').style.display='block';
-   const response = await fetch(`http://api.themoviedb.org/3/search/movie?api_key=23d3e5b3f085a72f85a21217806d544d&query=${searchValue}`)
+   const response = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=23d3e5b3f085a72f85a21217806d544d&query=${searchValue}`)
    
      const values=await response.json();
 
