@@ -3,4 +3,4 @@
 - view trending movies
 - view rated movies
 - search for your favourites movies 
-### [DEMO](moviemania1.netlify.app)
+### [DEMO](https://abiola-farounbi.github.io/Moviemania/. )
