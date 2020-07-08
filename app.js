@@ -63,7 +63,7 @@ const getSearch = async () => {
             let output7=value.vote_average;
             let output8=value.release_date;
             let output9=value.genres[0].name;
-            let output10=value.genres[1].name;
+         
             let output13=value.spoken_languages[0].name
             let output14=value.runtime;
             let output15=value.tagline;
@@ -83,7 +83,7 @@ const getSearch = async () => {
            <div class="card-body">
              <h5 class="card-title"><b>${output4}</b></h5>
              <span class="badge badge-pill badgeBreak">${output9}</span>
-             <span class="badge badge-pill badgeBreak">${output10}</span>
+             
        <p class="card-text">About: ${output5} </p>
        <em> ' ${output15}   '</em>
         
